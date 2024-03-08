@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Light";   /*Can be any text*/
+  src: local("Inter-Light"),
+    url("./assets/fonts/Inter-Light-BETA.otf") format("truetype");
+}

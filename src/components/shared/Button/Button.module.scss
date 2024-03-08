@@ -1,0 +1,27 @@
+.button {
+    display: flex;
+    padding: 1rem;
+    background-color: white;
+    border-color: grey;
+    border-radius: 25px;
+    border-width: 1px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 4px 8px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+
+    &__label {
+        display: block;
+        font-size: 1rem;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+
+        &--icon-left {
+            flex-direction: row-reverse;
+        }
+    }
+}

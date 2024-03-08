@@ -1,0 +1,26 @@
+.input {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+
+    &__label {
+        position: absolute;
+        top: 0;
+        display: block;
+        font-size: 1rem;
+        color: gray;
+    }
+
+    &__input {
+        font-family: inherit;
+        width: 100%;
+        border: 0;
+        border-bottom: 2px solid gray;
+        outline: 0;
+        font-size: 1.3rem;
+        color: white;
+        padding: 7px 0;
+        background: transparent;
+        transition: border-color 0.2s;
+    }
+}
