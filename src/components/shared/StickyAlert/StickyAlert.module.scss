@@ -1,0 +1,52 @@
+Toastify {
+  &__toast {
+    align-items: center;
+    margin: var(50) 0 0;
+    border-radius: var(50);
+    padding: 0;
+
+    &-container {
+      bottom: var(150);
+      left: var(150);
+    }
+
+    &-body {
+      align-items: center;
+      text-align: left;
+      font-size: 14px;
+      font-weight: 500;
+      margin: 0;
+      padding: 6px 12px;
+    }
+
+    &-theme--light {
+      background: var(white);
+      color: var(black);
+
+      &.Toastify__toast {
+        &--error {
+          display: flex;
+          align-items: flex-start;
+          padding: var(50) 0;
+          border-radius: 12px;
+
+          > button {
+            width: 24px !important;
+            height: 24px !important;
+            background-color: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+            padding: 0 !important;
+            margin: 0 !important;
+          }
+
+          .Toastify__toast {
+            &-body {
+              align-items: flex-start !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,19 +1,19 @@
 .login-page {
-    height: 100vh;
-    background-image: url("../../assets/background/the_sims_background.jpeg");
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  background-image: url('../../assets/background/the_sims_background.jpeg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    &__panel {
-        height: 50vh;
-        width: 25vw;
-        background-color: white;
-        border-radius: 25px;
-        align-items: center;
-        justify-content: space-between;
-        display: flex;
-        flex-direction: column;
-        padding: 2rem;
-    }
+  &__panel {
+    height: 50vh;
+    width: 25vw;
+    background-color: white;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
 }
